@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Digital Stopwatch</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+	<div class="container">
+		<!-- <h1>Digital Stopwatch</h1> -->
+		<!-- Analog dial display -->
+		<div id="display" class="display">
+		
+		  <div id="dial" class="dial" aria-hidden="false">
+		    <div id="ticks" class="ticks"></div>
+		    <div id="dialHand" class="hand"></div>
+		    <div class="center-dot"></div>
+			
+		    <div class="subdial">
+		      <div class="sub-hand"></div>
+		    </div>
+			 <div class="dial-title">Digital Stopwatch</div>
+		    <div id="numeric" class="dial-numeric">00:00:00.00</div>
+		  </div>
+		</div>
+
+		<div class="controls">
+			<button id="startBtn" class="btn primary">Start</button>
+			<button id="stopBtn" class="btn">Stop</button>
+			<button id="resetBtn" class="btn danger">Reset</button>
+		</div>
+
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
